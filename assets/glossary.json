@@ -1,0 +1,657 @@
+[
+  {
+    "keys": ["DPS", "DD", "ДД", "дд", "ДПС", "дпс"],
+    "description_en": "Damage Dealer / Damage Per Second - player role focused on dealing damage; also a metric for damage output rate",
+    "description_ru": "Боец наносящий урон; также показатель скорости нанесения урона в секунду"
+  },
+  {
+    "keys": ["Tank", "Танк", "танк", "MT", "OT"],
+    "description_en": "Tank - player role responsible for holding enemy aggro and absorbing damage",
+    "description_ru": "Роль игрока, удерживающего агрессию врагов и принимающего урон"
+  },
+  {
+    "keys": ["Healer", "Heal", "Хил", "хил", "Хилер", "хилер"],
+    "description_en": "Healer - player role focused on restoring health to the group/raid",
+    "description_ru": "Роль игрока, восстанавливающего здоровье группе или рейду"
+  },
+  {
+    "keys": ["DK", "ДК", "дк", "Death Knight"],
+    "description_en": "Death Knight - melee class introduced in WotLK, can tank or DPS",
+    "description_ru": "Рыцарь Смерти - класс ближнего боя из WotLK, может танковать или наносить урон"
+  },
+  {
+    "keys": ["Pala", "Paladin", "Пала", "пала", "Ret", "Holy Pala", "Prot Pala"],
+    "description_en": "Paladin - hybrid class that can tank, heal, or DPS",
+    "description_ru": "Паладин - универсальный класс, может танковать, лечить или наносить урон"
+  },
+  {
+    "keys": ["Lock", "Warlock", "Лок", "лок"],
+    "description_en": "Warlock - ranged DPS caster with demon pets and DoT spells",
+    "description_ru": "Чернокнижник - дальнобойный заклинатель с демонами и периодическим уроном"
+  },
+  {
+    "keys": ["Mage", "Маг", "маг"],
+    "description_en": "Mage - ranged DPS caster specializing in arcane, fire, or frost magic",
+    "description_ru": "Маг - дальнобойный заклинатель, специализирующийся на тайной, огненной или ледяной магии"
+  },
+  {
+    "keys": ["Hunter", "Hunt", "Хант", "хант", "Хантер"],
+    "description_en": "Hunter - ranged physical DPS with pets",
+    "description_ru": "Охотник - дальнобойный физический боец с питомцами"
+  },
+  {
+    "keys": ["Priest", "Прист", "прист", "Holy Priest", "Shadow Priest", "Disc"],
+    "description_en": "Priest - healer or shadow DPS caster",
+    "description_ru": "Жрец - лекарь или теневой заклинатель"
+  },
+  {
+    "keys": ["Druid", "Друид", "друид", "Bear", "Cat", "Moonkin", "Resto Druid"],
+    "description_en": "Druid - shapeshifting hybrid class, can tank, heal, melee DPS, or ranged DPS",
+    "description_ru": "Друид - оборотень, может танковать, лечить, драться в ближнем или дальнем бою"
+  },
+  {
+    "keys": ["Shammy", "Shaman", "Шаман", "шаман", "Ele", "Enh", "Resto Shammy"],
+    "description_en": "Shaman - hybrid class with totems, can heal, melee DPS, or ranged DPS",
+    "description_ru": "Шаман - класс с тотемами, может лечить, драться в ближнем или дальнем бою"
+  },
+  {
+    "keys": ["War", "Warrior", "Вар", "вар", "Воин"],
+    "description_en": "Warrior - melee class, can tank or DPS",
+    "description_ru": "Воин - класс ближнего боя, может танковать или наносить урон"
+  },
+  {
+    "keys": ["Rogue", "Рога", "рога", "Разбойник"],
+    "description_en": "Rogue - melee DPS specializing in stealth and burst damage",
+    "description_ru": "Разбойник - ближний боец, специализирующийся на скрытности и взрывном уроне"
+  },
+  {
+    "keys": ["ICC", "ИКК", "икк", "Icecrown", "Цитадель"],
+    "description_en": "Icecrown Citadel - final WotLK raid, 10/25 normal/heroic",
+    "description_ru": "Цитадель Ледяной Короны - финальный рейд WotLK, 10/25 обычный/героический"
+  },
+  {
+    "keys": ["TOC", "TOGC", "ТОК", "ток", "Trial", "Триал"],
+    "description_en": "Trial of the Crusader / Trial of the Grand Crusader - WotLK raid",
+    "description_ru": "Испытание Крестоносца / Испытание Великого Крестоносца - рейд WotLK"
+  },
+  {
+    "keys": ["VOA", "VoA", "Залив", "залив", "Archavon"],
+    "description_en": "Vault of Archavon - PvP weekly raid boss in Wintergrasp",
+    "description_ru": "Хранилище Аркавона - еженедельный PvP рейд-босс в Озере Ледяных Оков"
+  },
+  {
+    "keys": ["OS", "Obsidian Sanctum", "Обсидиан"],
+    "description_en": "Obsidian Sanctum - WotLK raid with Sartharion dragon boss",
+    "description_ru": "Обсидиановое Святилище - рейд WotLK с боссом драконом Сартарионом"
+  },
+  {
+    "keys": ["EOE", "EoE", "Eye of Eternity", "Око"],
+    "description_en": "Eye of Eternity - WotLK raid with Malygos dragon boss",
+    "description_ru": "Око Вечности - рейд WotLK с боссом драконом Малигосом"
+  },
+  {
+    "keys": ["Naxx", "Naxxramas", "Наксрамас", "наксрамас"],
+    "description_en": "Naxxramas - 10/25 player raid in WotLK, recycled from vanilla",
+    "description_ru": "Наксрамас - рейд на 10/25 игроков в WotLK, перенесенный из классики"
+  },
+  {
+    "keys": ["Ulduar", "Uldu", "Ульдуар", "ульдуар"],
+    "description_en": "Ulduar - WotLK raid with hard modes activated by special mechanics",
+    "description_ru": "Ульдуар - рейд WotLK с усложненными режимами, активируемыми через особую механику"
+  },
+  {
+    "keys": ["RS", "Ruby Sanctum", "РС", "рс"],
+    "description_en": "Ruby Sanctum - final WotLK raid patch content with Halion boss",
+    "description_ru": "Рубиновое Святилище - последний рейд WotLK с боссом Халионом"
+  },
+  {
+    "keys": ["UK", "Utgarde Keep", "УК"],
+    "description_en": "Utgarde Keep - WotLK dungeon (normal/heroic)",
+    "description_ru": "Крепость Утгард - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["UP", "Utgarde Pinnacle", "УП"],
+    "description_en": "Utgarde Pinnacle - WotLK dungeon (normal/heroic)",
+    "description_ru": "Вершина Утгард - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["AN", "Azjol-Nerub", "АН"],
+    "description_en": "Azjol-Nerub - WotLK dungeon (normal/heroic)",
+    "description_ru": "Азжол-Неруб - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["OK", "Old Kingdom", "ОК"],
+    "description_en": "Ahn'kahet: The Old Kingdom - WotLK dungeon (normal/heroic)",
+    "description_ru": "Ан'кахет: Старое Королевство - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["DTK", "Drak'Tharon Keep", "ДТК"],
+    "description_en": "Drak'Tharon Keep - WotLK dungeon (normal/heroic)",
+    "description_ru": "Крепость Драк'Тарон - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["VH", "Violet Hold", "ВХ", "Фиолетовая"],
+    "description_en": "Violet Hold - WotLK dungeon with wave defense mechanics",
+    "description_ru": "Аметистовая Крепость - подземелье WotLK с защитой от волн врагов"
+  },
+  {
+    "keys": ["CoS", "Culling of Stratholme", "КоС"],
+    "description_en": "Culling of Stratholme - WotLK dungeon (time travel scenario)",
+    "description_ru": "Очищение Стратхольма - подземелье WotLK (путешествие во времени)"
+  },
+  {
+    "keys": ["HoL", "Halls of Lightning", "ХоЛ"],
+    "description_en": "Halls of Lightning - WotLK dungeon (normal/heroic)",
+    "description_ru": "Чертоги Молний - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["HoS", "Halls of Stone", "ХоС"],
+    "description_en": "Halls of Stone - WotLK dungeon (normal/heroic)",
+    "description_ru": "Чертоги Камня - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["Oculus", "Окулус", "окулус"],
+    "description_en": "The Oculus - WotLK dungeon with dragon mount mechanics (often avoided)",
+    "description_ru": "Окулус - подземелье WotLK на драконах (часто избегается игроками)"
+  },
+  {
+    "keys": ["Nexus", "The Nexus", "Нексус"],
+    "description_en": "The Nexus - WotLK dungeon (normal/heroic)",
+    "description_ru": "Нексус - подземелье WotLK (обычное/героическое)"
+  },
+  {
+    "keys": ["PoS", "Pit of Saron", "ПоС"],
+    "description_en": "Pit of Saron - ICC 5-man dungeon (heroic only)",
+    "description_ru": "Яма Сарона - 5-игрок подземелье ЦЛК (только героическое)"
+  },
+  {
+    "keys": ["FoS", "Forge of Souls", "ФоС"],
+    "description_en": "Forge of Souls - ICC 5-man dungeon (heroic only)",
+    "description_ru": "Кузня Душ - 5-игрок подземелье ЦЛК (только героическое)"
+  },
+  {
+    "keys": ["HoR", "Halls of Reflection", "ХоР"],
+    "description_en": "Halls of Reflection - ICC 5-man dungeon, hardest heroic (heroic only)",
+    "description_ru": "Чертоги Отражений - 5-игрок подземелье ЦЛК, самое сложное героическое"
+  },
+  {
+    "keys": ["LFG", "ЛФГ", "лфг", "Looking for Group"],
+    "description_en": "Looking for Group - player seeking to join a group for content",
+    "description_ru": "Ищу группу - игрок ищет группу для контента"
+  },
+  {
+    "keys": ["LFM", "ЛФМ", "лфм", "Looking for More"],
+    "description_en": "Looking for More - group seeking additional members",
+    "description_ru": "Ищем еще - группа набирает дополнительных участников"
+  },
+  {
+    "keys": ["WTS", "ИСК", "иск"],
+    "description_en": "Want to Sell - player wants to sell item or service",
+    "description_ru": "Продаю - игрок продает предмет или услугу"
+  },
+  {
+    "keys": ["WTB"],
+    "description_en": "Want to Buy - player wants to purchase item or service",
+    "description_ru": "Куплю - игрок покупает предмет или услугу"
+  },
+  {
+    "keys": ["WTT"],
+    "description_en": "Want to Trade - player wants to trade items",
+    "description_ru": "Обменяю - игрок хочет обменять предметы"
+  },
+  {
+    "keys": ["GS", "ГС", "гс", "Gearscore"],
+    "description_en": "Gearscore - addon metric measuring gear quality/item level in WotLK",
+    "description_ru": "Гирскор - показатель качества экипировки/уровня предметов из аддона"
+  },
+  {
+    "keys": ["AFK", "АФК", "афк"],
+    "description_en": "Away From Keyboard - player is temporarily inactive",
+    "description_ru": "Отошел от клавиатуры - игрок временно неактивен"
+  },
+  {
+    "keys": ["BRB", "БРБ", "брб"],
+    "description_en": "Be Right Back - player will return shortly",
+    "description_ru": "Скоро вернусь - игрок скоро вернется"
+  },
+  {
+    "keys": ["BRT"],
+    "description_en": "Be Right There - player is on the way",
+    "description_ru": "Уже иду - игрок на подходе"
+  },
+  {
+    "keys": ["INV", "Инв", "инв", "Инвайт", "инвайт"],
+    "description_en": "Invite - request for group/raid/guild invitation",
+    "description_ru": "Инвайт - запрос приглашения в группу/рейд/гильдию"
+  },
+  {
+    "keys": ["PM", "PST", "ПМ", "пм", "ПСТ"],
+    "description_en": "Private Message / Please Send Tell - whisper me for details",
+    "description_ru": "Личное сообщение - напишите в вис для подробностей"
+  },
+  {
+    "keys": ["GG", "ГГ", "гг"],
+    "description_en": "Good Game - expression of sportsmanship after content",
+    "description_ru": "Хорошая игра - выражение уважения после прохождения контента"
+  },
+  {
+    "keys": ["GL", "ГЛ", "гл"],
+    "description_en": "Good Luck - wishing success",
+    "description_ru": "Удачи - пожелание успеха"
+  },
+  {
+    "keys": ["HF", "ХФ", "хф"],
+    "description_en": "Have Fun - wishing enjoyment",
+    "description_ru": "Приятной игры - пожелание удовольствия"
+  },
+  {
+    "keys": ["NP", "НП", "нп"],
+    "description_en": "No Problem - acknowledgment or you're welcome",
+    "description_ru": "Без проблем - подтверждение или пожалуйста"
+  },
+  {
+    "keys": ["TY", "THX", "Спс", "спс"],
+    "description_en": "Thank You - expression of gratitude",
+    "description_ru": "Спасибо - выражение благодарности"
+  },
+  {
+    "keys": ["NPC", "НПС", "нпс"],
+    "description_en": "Non-Player Character - computer-controlled character",
+    "description_ru": "Неигровой персонаж - управляемый компьютером персонаж"
+  },
+  {
+    "keys": ["AH", "АХ", "ах", "Auction"],
+    "description_en": "Auction House - in-game marketplace for buying/selling items",
+    "description_ru": "Аукцион - внутриигровая торговая площадка"
+  },
+  {
+    "keys": ["PvP", "ПвП", "пвп"],
+    "description_en": "Player versus Player - combat between players",
+    "description_ru": "Игрок против игрока - бой между игроками"
+  },
+  {
+    "keys": ["PvE", "ПвЕ", "пве"],
+    "description_en": "Player versus Environment - combat against NPCs/bosses",
+    "description_ru": "Игрок против окружения - бой против NPC и боссов"
+  },
+  {
+    "keys": ["Arena", "Арена", "арена"],
+    "description_en": "Arena - rated PvP matches (2v2, 3v3, 5v5 in WotLK)",
+    "description_ru": "Арена - рейтинговые PvP матчи (2v2, 3v3, 5v5 в WotLK)"
+  },
+  {
+    "keys": ["BG", "БГ", "бг", "Battleground"],
+    "description_en": "Battleground - large-scale PvP objective-based maps",
+    "description_ru": "Поле боя - масштабные PvP карты с заданиями"
+  },
+  {
+    "keys": ["Raid", "Рейд", "рейд"],
+    "description_en": "Raid - large group PvE content (10 or 25 players in WotLK)",
+    "description_ru": "Рейд - групповой PvE контент (10 или 25 игроков в WotLK)"
+  },
+  {
+    "keys": ["Buff", "Бафф", "бафф"],
+    "description_en": "Buff - beneficial temporary effect on player",
+    "description_ru": "Бафф - положительный временный эффект на игроке"
+  },
+  {
+    "keys": ["Debuff", "Дебафф", "дебафф"],
+    "description_en": "Debuff - negative temporary effect on player or enemy",
+    "description_ru": "Дебафф - отрицательный временный эффект на игроке или враге"
+  },
+  {
+    "keys": ["Aggro", "Агр", "агр", "Агро"],
+    "description_en": "Aggro - enemy's attention/threat targeting a player",
+    "description_ru": "Агро - внимание врага/угроза, направленная на игрока"
+  },
+  {
+    "keys": ["Wipe", "Вайп", "вайп"],
+    "description_en": "Wipe - entire group/raid dies, requiring reset",
+    "description_ru": "Вайп - вся группа/рейд погибла, требуется повтор"
+  },
+  {
+    "keys": ["Rez", "Ress", "Рес", "рес"],
+    "description_en": "Resurrect - reviving a dead player",
+    "description_ru": "Воскрешение - оживление мертвого игрока"
+  },
+  {
+    "keys": ["Proc", "Прок", "прок"],
+    "description_en": "Proc - random effect triggering from ability or item",
+    "description_ru": "Прок - случайный эффект, срабатывающий от способности или предмета"
+  },
+  {
+    "keys": ["Crit", "Крит", "крит"],
+    "description_en": "Critical Hit - attack dealing increased damage (usually 2x)",
+    "description_ru": "Критический удар - атака с увеличенным уроном (обычно 2x)"
+  },
+  {
+    "keys": ["HoT", "ХоТ", "хот"],
+    "description_en": "Heal over Time - spell that heals gradually (e.g., Rejuvenation, Renew)",
+    "description_ru": "Постепенное исцеление - заклинание, лечащее со временем (например, Омоложение, Обновление)"
+  },
+  {
+    "keys": ["DoT", "ДоТ", "дот"],
+    "description_en": "Damage over Time - spell dealing periodic damage (e.g., Corruption, Flame Shock)",
+    "description_ru": "Периодический урон - заклинание, наносящее урон со временем (например, Порча, Огненный шок)"
+  },
+  {
+    "keys": ["AoE", "АоЕ", "аое"],
+    "description_en": "Area of Effect - ability affecting multiple targets in an area",
+    "description_ru": "Область поражения - способность, поражающая несколько целей в области"
+  },
+  {
+    "keys": ["CC", "КК", "кк"],
+    "description_en": "Crowd Control - abilities that disable enemies (polymorph, fear, etc.)",
+    "description_ru": "Контроль - способности, обезвреживающие врагов (превращение, страх и т.д.)"
+  },
+  {
+    "keys": ["Interrupt", "Int", "Инт", "инт"],
+    "description_en": "Interrupt - ability stopping enemy casting (Kick, Counterspell, etc.)",
+    "description_ru": "Прерывание - способность, останавливающая вражеское заклинание (Пинок, Антимагия и т.д.)"
+  },
+  {
+    "keys": ["Dispel", "Диспел", "диспел"],
+    "description_en": "Dispel - removing debuffs from allies or buffs from enemies",
+    "description_ru": "Рассеивание - снятие дебаффов с союзников или баффов с врагов"
+  },
+  {
+    "keys": ["OMW", "ОМВ", "омв"],
+    "description_en": "On My Way - player is traveling to location",
+    "description_ru": "В пути - игрок идет к месту"
+  },
+  {
+    "keys": ["OOM", "ООМ", "оом"],
+    "description_en": "Out of Mana - player has no mana remaining",
+    "description_ru": "Нет маны - у игрока закончилась мана"
+  },
+  {
+    "keys": ["CD", "КД", "кд", "Cooldown"],
+    "description_en": "Cooldown - time before ability can be used again",
+    "description_ru": "Откат - время до повторного использования способности"
+  },
+  {
+    "keys": ["GCD", "ГКД", "гкд"],
+    "description_en": "Global Cooldown - 1.5s base cooldown affecting most abilities",
+    "description_ru": "Глобальный откат - базовый откат 1.5с, влияющий на большинство способностей"
+  },
+  {
+    "keys": ["MP", "МП", "мп", "Mana"],
+    "description_en": "Mana Points - resource used for casting spells",
+    "description_ru": "Очки маны - ресурс для использования заклинаний"
+  },
+  {
+    "keys": ["HP", "ХП", "хп", "Health"],
+    "description_en": "Health Points - player/NPC life total",
+    "description_ru": "Очки здоровья - запас жизни игрока/NPC"
+  },
+  {
+    "keys": ["SP", "СП", "сп"],
+    "description_en": "Spell Power - stat increasing spell damage and healing",
+    "description_ru": "Сила заклинаний - характеристика, увеличивающая урон и исцеление от заклинаний"
+  },
+  {
+    "keys": ["AP", "АП", "ап"],
+    "description_en": "Attack Power - stat increasing physical damage",
+    "description_ru": "Сила атаки - характеристика, увеличивающая физический урон"
+  },
+  {
+    "keys": ["ArP", "АрП", "арп"],
+    "description_en": "Armor Penetration - stat reducing enemy armor (very strong in WotLK)",
+    "description_ru": "Пробивание брони - характеристика, снижающая броню врага (очень сильная в WotLK)"
+  },
+  {
+    "keys": ["Hit", "Хит", "хит"],
+    "description_en": "Hit Rating - stat reducing chance to miss attacks/spells",
+    "description_ru": "Меткость - характеристика, снижающая шанс промаха атак и заклинаний"
+  },
+  {
+    "keys": ["Haste", "Хейст", "хейст"],
+    "description_en": "Haste - stat reducing cast time and GCD",
+    "description_ru": "Скорость - характеристика, сокращающая время каста и глобальный откат"
+  },
+  {
+    "keys": ["MS", "МС", "мс"],
+    "description_en": "Main Spec - player's primary role/specialization for loot priority",
+    "description_ru": "Основная специализация - главная роль игрока для приоритета на добычу"
+  },
+  {
+    "keys": ["OS", "ОС", "ос"],
+    "description_en": "Off Spec - player's secondary specialization for loot priority",
+    "description_ru": "Вторичная специализация - дополнительная роль игрока с низким приоритетом на добычу"
+  },
+  {
+    "keys": ["TS", "TeamSpeak", "ТС", "тс"],
+    "description_en": "TeamSpeak - voice communication software (also Ventrilo, Mumble)",
+    "description_ru": "TeamSpeak - голосовая связь (также Ventrilo, Mumble)"
+  },
+  {
+    "keys": ["SS", "Summon", "Сумон", "сумон"],
+    "description_en": "Summon - warlock ability teleporting players to location",
+    "description_ru": "Призыв - способность чернокнижника телепортировать игроков к месту"
+  },
+  {
+    "keys": ["IB", "Innervate", "Инервейт"],
+    "description_en": "Innervate - druid spell restoring mana to target",
+    "description_ru": "Озарение - заклинание друида, восстанавливающее ману цели"
+  },
+  {
+    "keys": ["BL", "Bloodlust", "Hero", "Heroism", "БЛ", "бл", "Жажда"],
+    "description_en": "Bloodlust/Heroism - shaman raid buff increasing haste by 30% for 40s",
+    "description_ru": "Жажда крови/Героизм - рейдовый бафф шамана, увеличивающий скорость на 30% на 40с"
+  },
+  {
+    "keys": ["Kings", "Кингс", "кингс", "BoK"],
+    "description_en": "Blessing of Kings - paladin buff increasing all stats by 10%",
+    "description_ru": "Благословение Королей - бафф паладина, увеличивающий все характеристики на 10%"
+  },
+  {
+    "keys": ["Might", "Майт", "майт", "BoM"],
+    "description_en": "Blessing of Might - paladin buff increasing attack power",
+    "description_ru": "Благословение Могущества - бафф паладина, увеличивающий силу атаки"
+  },
+  {
+    "keys": ["Wis", "Wisdom", "Виз", "виз", "BoW"],
+    "description_en": "Blessing of Wisdom - paladin buff restoring mana",
+    "description_ru": "Благословение Мудрости - бафф паладина, восстанавливающий ману"
+  },
+  {
+    "keys": ["Fort", "Fortitude", "Форт", "форт", "PW:F"],
+    "description_en": "Power Word: Fortitude - priest buff increasing stamina",
+    "description_ru": "Слово силы: Стойкость - бафф жреца, увеличивающий выносливость"
+  },
+  {
+    "keys": ["MotW", "Mark", "Марк", "марк"],
+    "description_en": "Mark of the Wild - druid buff increasing stats and resistances",
+    "description_ru": "Знак дикой природы - бафф друида, увеличивающий характеристики и сопротивления"
+  },
+  {
+    "keys": ["AI", "Arcane Intellect", "Инт", "АИ"],
+    "description_en": "Arcane Intellect - mage buff increasing intellect",
+    "description_ru": "Чародейский интеллект - бафф мага, увеличивающий интеллект"
+  },
+  {
+    "keys": ["WSG", "Warsong Gulch", "ВСГ", "Ущелье"],
+    "description_en": "Warsong Gulch - capture the flag battleground",
+    "description_ru": "Ущелье Песни Войны - поле боя с захватом флага"
+  },
+  {
+    "keys": ["AB", "Arathi Basin", "АБ", "Арати"],
+    "description_en": "Arathi Basin - resource control battleground with 5 bases",
+    "description_ru": "Низина Арати - поле боя с контролем ресурсов (5 баз)"
+  },
+  {
+    "keys": ["AV", "Alterac Valley", "АВ", "Альтерак"],
+    "description_en": "Alterac Valley - large 40v40 battleground",
+    "description_ru": "Альтеракская долина - большое поле боя 40 на 40"
+  },
+  {
+    "keys": ["EotS", "Eye of the Storm", "Око"],
+    "description_en": "Eye of the Storm - flag capture + base control hybrid battleground",
+    "description_ru": "Око Бури - гибридное поле боя с захватом флага и контролем баз"
+  },
+  {
+    "keys": ["SotA", "Strand of the Ancients", "СотА"],
+    "description_en": "Strand of the Ancients - siege-based battleground (WotLK)",
+    "description_ru": "Берег Древних - осадное поле боя (WotLK)"
+  },
+  {
+    "keys": ["IoC", "Isle of Conquest", "ИоК"],
+    "description_en": "Isle of Conquest - large battleground with siege vehicles (WotLK)",
+    "description_ru": "Остров Завоеваний - большое поле боя с осадными машинами (WotLK)"
+  },
+  {
+    "keys": ["Loot", "Лут", "лут"],
+    "description_en": "Loot - items dropped by enemies or contained in chests",
+    "description_ru": "Добыча - предметы, выпадающие с врагов или находящиеся в сундуках"
+  },
+  {
+    "keys": ["Roll", "Ролл", "ролл"],
+    "description_en": "Roll - random number generated for loot distribution (Need/Greed)",
+    "description_ru": "Бросок - случайное число для распределения добычи (Нужно/Неплохо бы)"
+  },
+  {
+    "keys": ["Need", "Нид", "нид"],
+    "description_en": "Need - rolling for item your class can use (higher priority)",
+    "description_ru": "Нужно - бросок на предмет, который нужен вашему классу (высокий приоритет)"
+  },
+  {
+    "keys": ["Greed", "Грид", "грид"],
+    "description_en": "Greed - rolling for item to sell/disenchant (lower priority)",
+    "description_ru": "Неплохо бы - бросок на предмет для продажи/распыления (низкий приоритет)"
+  },
+  {
+    "keys": ["Taunt", "Таунт", "таунт"],
+    "description_en": "Taunt - tank ability forcing enemy to attack the tank",
+    "description_ru": "Провокация - способность танка, заставляющая врага атаковать танка"
+  },
+  {
+    "keys": ["Pull", "Пул", "пул"],
+    "description_en": "Pull - initiating combat by attacking enemy group",
+    "description_ru": "Пул - начало боя атакой группы врагов"
+  },
+  {
+    "keys": ["Ready", "Реди", "реди", "R", "р"],
+    "description_en": "Ready - player is prepared to start content",
+    "description_ru": "Готов - игрок готов начать контент"
+  },
+  {
+    "keys": ["Party", "Пати", "пати"],
+    "description_en": "Party - group of 2-5 players",
+    "description_ru": "Группа - от 2 до 5 игроков"
+  },
+  {
+    "keys": ["Guild", "Гильдия", "гильдия", "Гиль", "гиль"],
+    "description_en": "Guild - persistent player organization with shared resources",
+    "description_ru": "Гильдия - постоянное игровое объединение с общими ресурсами"
+  },
+  {
+    "keys": ["Flask", "Фласка", "фласка", "Флак"],
+    "description_en": "Flask - powerful long-duration consumable buff (persists through death)",
+    "description_ru": "Настой - мощный расходуемый бафф длительного действия (сохраняется после смерти)"
+  },
+  {
+    "keys": ["Elixir", "Эликсир", "эликсир"],
+    "description_en": "Elixir - consumable buff (Battle/Guardian types, lost on death)",
+    "description_ru": "Эликсир - расходуемый бафф (Боевой/Защитный, теряется при смерти)"
+  },
+  {
+    "keys": ["Food", "Фуд", "фуд"],
+    "description_en": "Food - consumable providing stat buff (well fed)",
+    "description_ru": "Еда - расходуемое, дающее бафф на характеристики (сытость)"
+  },
+  {
+    "keys": ["Pot", "Поушн", "поушн"],
+    "description_en": "Potion - instant consumable (health, mana, speed, etc.)",
+    "description_ru": "Зелье - мгновенное расходуемое (здоровье, мана, скорость и т.д.)"
+  },
+  {
+    "keys": ["Mount", "Маунт", "маунт"],
+    "description_en": "Mount - rideable creature for faster travel",
+    "description_ru": "Маунт - ездовое существо для быстрого перемещения"
+  },
+  {
+    "keys": ["Rep", "Reputation", "Репа", "репа"],
+    "description_en": "Reputation - standing with NPC factions, unlocks rewards",
+    "description_ru": "Репутация - отношения с фракциями NPC, открывает награды"
+  },
+  {
+    "keys": ["Achievement", "Ачивка", "ачивка"],
+    "description_en": "Achievement - in-game goal with title/mount/pet rewards",
+    "description_ru": "Достижение - внутриигровая цель с наградами (титул/маунт/питомец)"
+  },
+  {
+    "keys": ["TPS", "ThreatPS", "ТПС"],
+    "description_en": "Threat Per Second - measurement of tank's aggro generation rate",
+    "description_ru": "Угроза в секунду - показатель скорости генерации агро танком"
+  },
+  {
+    "keys": ["HPS", "ХПС", "хпс"],
+    "description_en": "Healing Per Second - measurement of healing output rate",
+    "description_ru": "Исцеление в секунду - показатель скорости лечения"
+  },
+  {
+    "keys": ["HPala", "ХПала"],
+    "description_en": "Holy Paladin - healer specialization of Paladin class",
+    "description_ru": "Паладин Света - специализация паладина на лечение"
+  },
+  {
+    "keys": ["Pirest"],
+    "description_en": "Priest - common chat abbreviation/misspelling of the Priest class",
+    "description_ru": "Жрец - распространенное сокращение/опечатка класса Жрец"
+  },
+  {
+    "keys": ["STS"],
+    "description_en": "Stats - request to link your character stats/gearscore, or Slots - available spots in a group",
+    "description_ru": "Характеристики - запрос показать статы/гирскор, или Слоты - свободные места в группе"
+  },
+  {
+    "keys": ["PS", "ПС"],
+    "description_en": "Primordial Saronite - valuable ICC crafting material used for legendary items and epic gear",
+    "description_ru": "Первородный Саронит - ценный материал для крафта из ЦЛК, используется для легендарок и эпиков"
+  },
+  {
+    "keys": ["ACHIV", "ачив"],
+    "description_en": "Achievement - shorthand for in-game achievement, often requested as proof of raid experience (e.g. link ACHIV)",
+    "description_ru": "Ачивка - сокращение от достижения, часто запрашивается как доказательство опыта в рейдах (напр. скинь ачив)"
+  },
+  {
+    "keys": ["RHC", "РХК"],
+    "description_en": "Random Heroic - random heroic dungeon run via the Random Dungeon Finder (RDF)",
+    "description_ru": "Рандомное героическое - случайное героическое подземелье через поиск подземелий"
+  },
+  {
+    "keys": ["Enchanter", "Энчантер"],
+    "description_en": "Enchanter - player with the Enchanting profession, offering gear enchantment services in trade chat",
+    "description_ru": "Зачаровыватель - игрок с профессией Наложение чар, предлагающий услуги зачарования в торговом чате"
+  },
+  {
+    "keys": ["RDF", "РДФ"],
+    "description_en": "Random Dungeon Finder - automated group matching tool added in WotLK 3.3 for 5-man dungeons",
+    "description_ru": "Поиск подземелий - автоматический поиск группы, добавленный в WotLK 3.3 для 5-игрок подземелий"
+  },
+  {
+    "keys": ["HC", "ХК"],
+    "description_en": "Heroic - higher difficulty mode for dungeons (lvl 80) or raids (e.g. ICC 25 HC)",
+    "description_ru": "Героический - повышенная сложность для подземелий (80 лвл) или рейдов (напр. ЦЛК 25 ХК)"
+  },
+  {
+    "keys": ["QUE", "Queue"],
+    "description_en": "Queue - waiting in line for dungeon finder, battleground, or arena",
+    "description_ru": "Очередь - ожидание в очереди для поиска подземелий, полей боя или арены"
+  },
+  {
+    "keys": ["Horde", "Орда"],
+    "description_en": "Horde - one of two playable factions (Orcs, Trolls, Tauren, Undead, Blood Elves)",
+    "description_ru": "Орда - одна из двух играбельных фракций (Орки, Тролли, Таурены, Нежить, Эльфы крови)"
+  },
+  {
+    "keys": ["Alliance", "Альянс"],
+    "description_en": "Alliance - one of two playable factions (Humans, Dwarves, Night Elves, Gnomes, Draenei)",
+    "description_ru": "Альянс - одна из двух играбельных фракций (Люди, Дворфы, Ночные эльфы, Гномы, Дренеи)"
+  },
+  {
+    "keys": ["BiS", "БиС", "бис"],
+    "description_en": "Best in Slot - the best possible item for a specific equipment slot for a given class and specialization",
+    "description_ru": "Лучшее в слоте - лучший возможный предмет для конкретного слота экипировки для данного класса и специализации"
+  }
+]
